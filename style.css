@@ -1,0 +1,87 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.container {
+  max-width: 600px;
+  padding: 10px;
+  border-radius: 15px;
+  background-image: url('https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-241219.jpg');
+  background-size: cover;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.loc-details {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  color: white;
+}
+
+.city-name {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.weather-icon {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.weather-temp {
+  color: white;
+}
+
+.discription {
+  color: white;
+  font-size: 20px;
+}
+
+.forcast {
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  margin: 20px 5px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  min-width: 100px;
+  padding: 10px;
+  margin: 10px;
+  color: gray;
+  font-size: 12px;
+}
+
+.forcast-icon img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+
+.forcast::-webkit-scrollbar {
+  height: 2px;
+}
+
+.forcast::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.forcast::-webkit-scrollbar-thumb {
+  background: white;
+
+}
