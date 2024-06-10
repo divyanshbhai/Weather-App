@@ -62,6 +62,8 @@ function fetchData() {
   let dicription = document.querySelector('.discription');
   dicription.innerText = data.data[0].weather.description;
 
+  fetchForcast()
+
 }
 
 
