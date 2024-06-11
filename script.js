@@ -20,13 +20,9 @@ function showPosition(position) {
 }
 
 async function getWeather() {
-  const url = `https://weatherbit-v1-mashape.p.rapidapi.com/forecast/3hourly?lat=${lat}&lon=${long}&units=metric&lang=en`;
+  const url = `https://weatherbit-v1-mashape.p.rapidapi.com/forecast/3hourly?lat=${lat}&lon=${long}&key=227ba9d62c924dff969f97cefe3693a1&units=metric&lang=en`;
   const options = {
-    method: 'GET',
-    headers: {
-      'x-rapidapi-key': 'd0b253ad4fmsh4ec813780e5570ap1f4b93jsn97c27b486b55',
-      'x-rapidapi-host': 'weatherbit-v1-mashape.p.rapidapi.com'
-    }
+    method: 'GET'
   };
 
   try {
